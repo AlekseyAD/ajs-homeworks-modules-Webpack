@@ -1,0 +1,41 @@
+{
+  "name": "ajs-homeworks-modules-webpack",
+  "version": "1.0.0",
+  "description": "Browser based game",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "lint": "eslint .",
+    "start": "live-server dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlekseyAD/ajs-homeworks-modules-Webpack.git"
+  },
+  "author": "Dmitriev Aleksey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlekseyAD/ajs-homeworks-modules-Webpack/issues"
+  },
+  "homepage": "https://github.com/AlekseyAD/ajs-homeworks-modules-Webpack#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.18.10",
+    "@babel/core": "^7.18.13",
+    "@babel/preset-env": "^7.18.10",
+    "babel-loader": "^8.2.5",
+    "css-loader": "^6.7.1",
+    "eslint": "^8.23.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "html-loader": "^4.1.0",
+    "html-webpack-plugin": "^5.5.0",
+    "live-server": "^1.2.2",
+    "mini-css-extract-plugin": "^2.6.1",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  },
+  "dependencies": {
+    "core-js": "^3.25.0"
+  }
+}
